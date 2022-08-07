@@ -1,7 +1,9 @@
 import React from 'react';
+import MainBox from './components/MainBox';
+
 function App() {
   return (
-    <h1>Hello world</h1>
+    <MainBox />
   );
 }
 
