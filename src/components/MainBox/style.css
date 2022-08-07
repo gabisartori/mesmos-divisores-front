@@ -1,11 +1,8 @@
-body{
-    background-color: red;
-}
-
 div{
     display: flex;
-    background-color: gray;
-    max-width: 500px;
+    flex-direction: column;
+    background-color: white;
+    max-width: 1200px;
     margin: 0 auto;
-    align-items: center;
+    justify-content: center;
 }
