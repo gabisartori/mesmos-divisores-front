@@ -1,11 +1,14 @@
 import React from 'react';
 import './GlobalStyle.css';
 import MainBox from './components/MainBox';
-
+import Header from './components/Header';
 
 function App() {
   return (
-    <MainBox />
+    <div>
+      <Header />
+      <MainBox />
+    </div>
   );
 }
 

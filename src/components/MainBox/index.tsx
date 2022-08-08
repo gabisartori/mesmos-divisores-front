@@ -1,4 +1,4 @@
-import './style.css';
+import * as C from './style';
 
 async function chamar(){
     const input = document.getElementById('num') as HTMLInputElement;
@@ -9,10 +9,10 @@ async function chamar(){
 
 export default function MainBox() {
   return (
-    <div>
-        <h1>Insira o número</h1>
-        <input type="number" id="num" />
-        <button onClick={chamar}>Enviar</button>
-    </div>
+    <C.MainBox>
+        <C.Text>Insira um número</C.Text>
+        <C.NumberInput type="number" id="num" />
+        <C.Button onClick={chamar}>Clique aqui👍</C.Button>
+    </C.MainBox>
   );
 }
